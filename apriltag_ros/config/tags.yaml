@@ -21,6 +21,7 @@
 #   ]
 standalone_tags:
   [
+#     {id: 0, size: 0.0475, name: marker_0},
   ]
 # ## Tag bundle definitions
 # ### Remarks
@@ -45,4 +46,11 @@ standalone_tags:
 #   ]
 tag_bundles:
   [
+    {
+      name: 'table',
+      layout:
+        [
+          {id: 0, size: 0.0475, x: 0.0, y: 0.0, z: 0.15, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0}
+        ]
+    }
   ]
