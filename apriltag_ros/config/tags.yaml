@@ -47,7 +47,7 @@ standalone_tags:
 tag_bundles:
   [
     {
-      name: 'table',
+      name: 'table_black',
       layout:
         [
           {id: 0, size: 0.0445, x: 0.37465, y: -0.216, z: 0.15, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0}
@@ -57,17 +57,25 @@ tag_bundles:
       name: 'wall_red',
       layout:
         [
-          {id: 1, size: 0.0445, x: 0.0, y: 0.0, z: 0.025, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0}
+          {id: 1, size: 0.0445, x: -1.0, y: 0.0, z: 0.025, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0}
         ]
     },
+    # {
+    #   name: 'wall_white',
+    #   layout:
+    #     [
+    #       {id: 2, size: 0.0715, x: 0.10, y: 0.0, z: 0.025, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0},
+    #       {id: 3, size: 0.0715, x: 0.235, y: 0.0, z: 0.025, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0},
+    #     ]
+    # },
     {
-      name: 'wall_white',
+      name: 'table_wooden',
       layout:
         [
-          {id: 2, size: 0.0715, x: 0.10, y: 0.0, z: 0.025, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0},
-          {id: 3, size: 0.0715, x: 0.235, y: 0.0, z: 0.025, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0},
+          {id: 3, size: 0.0445, x: 0.56, y: -0.344, z: 0.15, qw: 1.0, qx: 0.0, qy: 0.0, qz: 0.0}
         ]
-    }
+    },
+
   ]
 
 
